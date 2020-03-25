@@ -22,16 +22,6 @@ public class Product implements Comparable<Product> {
       return this.productNum - compareProduct.productNum;
       // descending order
       // return compareProduct.productNum - this.productNum;
-      
-//	   if (this.productNum < compareProduct.productNum) {
-//			return -1;
-//
-//		} else if (this.productNum == compareProduct.productNum) {
-//			return 0;
-//
-//		} else {
-//			return 1;
-//		}
 
    }       
 
